@@ -1,0 +1,45 @@
+table{
+    width: 100%;padding: 2rem;margin-top: 1rem;
+}
+tr{
+    height: 0rem;border-bottom: 1px solid lightgray;
+}
+td{
+    border-bottom: 1px solid lightgray; font-size: 1.1rem;font-weight: 500;
+}
+button{
+    padding: .5rem;font-size: 1.2rem;border: none;cursor: pointer;border-radius: .2rem;
+}
+.delete{
+    background-color: orangered;
+}
+.save{
+    background-color: green;color: white;margin: .2rem 0rem 0rem 2rem;width: 4rem;
+}
+.inputfield input{
+    width:60%;height: 2rem;margin: 5% 1% 0% 13%;border: 2px solid black;
+    border-radius: .3rem;font-size: 1.3rem;font-weight: 600;padding: .5rem;
+}
+.inputfield button{
+    height: 3.2rem;width: 6rem;font-weight: 600;color: white;background-color: green;
+}
+.btns{
+   /* width: 100%;display: flex;flex-direction: row;align-items: center;justify-content: center;
+   margin-bottom: 4rem; */
+
+}
+.btns .pagination{
+    display: flex;flex-direction: row;justify-content: center;
+}
+.div{
+    display: flex;flex-direction: row;justify-content: space-evenly;margin-left: .5rem;margin-right: .5rem;
+}
+.btns .pagination button{
+width: 3rem;margin-bottom: 3rem;
+}
+.active{
+    background-color: green;
+}
+table .title{
+    width: 60rem;
+}

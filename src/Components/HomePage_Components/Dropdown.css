@@ -1,0 +1,6 @@
+.dropdown{
+    padding: 1.5rem 0rem 1rem 2rem;
+}
+.dropdown select{
+    padding: 1rem;font-family: arial;font-size: 1.2rem;cursor: pointer;
+}
